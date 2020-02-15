@@ -1,0 +1,17 @@
+name: bag
+
+on: [push]
+
+jobs:Owner
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: дастан лох
+      run: echo Hello, world!
+    - name: дастан лох
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
